@@ -1,0 +1,31 @@
+.nav {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 10px;
+}
+
+.nav-title {
+    justify-content: flex-start;
+}
+
+.nav-links {
+    display: flex;
+}
+    
+li {
+    margin: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    box-shadow: 4px 5px black;
+    background-color: rgb(0, 217, 255);
+    color: white;
+}
