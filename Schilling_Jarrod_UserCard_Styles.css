@@ -1,0 +1,52 @@
+.container {
+    display: block;
+    width: 500px;
+    height: 300px;
+    border: 3px solid black;
+    justify-content: center;
+}
+
+.photo > img {
+    position: fixed;
+    top: 35px;
+    left: 30px;
+    height: 90px;
+
+}
+
+.row-1 {
+    background-color: aqua;
+    width: inherit;
+    height: 75px;
+    margin-bottom: 40px;
+}
+
+.row-2 {
+    width: inherit;
+    height: 225px;
+    margin-left: 20px;
+}
+
+img {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.name {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.location{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.body {
+    font-size: 20px;
+}
+
+.edit {
+    font-size: 18px;
+    margin-top: 15px;
+}
