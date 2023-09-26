@@ -11,7 +11,7 @@
     margin-right: 20px;
 }
 
-a {
+.nav > a {
     text-decoration: none;
     color: white;
     float: left;
@@ -34,36 +34,51 @@ a {
 
 }
 
-.container-1 {
-    display: block;
-    width: 500px;
-    height: 300px;
-    border: 3px solid black;
-    justify-content: center;
+.body {
+    font-size: 20px;
 }
 
-.photo > img {
-    position: fixed;
-    top: 35px;
-    left: 30px;
-    height: 90px;
+.container {
+    display: flex;
+    width: 900px;
+    margin: 20px;
+}
 
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 20px;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100px;
+    margin: 20px;
 }
 
 .row-1 {
+    border: 2px solid gray;
+    margin: 20px;
+    flex-direction: row;
+}
+
+.row-1-title {
     background-color: aqua;
-    width: inherit;
     height: 75px;
-    margin-bottom: 40px;
 }
 
-.row-2 {
-    width: inherit;
-    height: 225px;
-    margin-left: 20px;
+.row-1-body {
+    margin: 10px;
 }
 
-img {
+.edit > img {
+    height: 20px;
+}
+
+.location > img {
     height: 20px;
     margin-right: 5px;
 }
@@ -78,11 +93,135 @@ img {
     margin-bottom: 15px;
 }
 
-.body {
-    font-size: 20px;
-}
-
-.edit {
+.edit > a {
     font-size: 18px;
     margin-top: 15px;
+    color: black;
+}
+
+.row-2 {
+    border: 2px solid gray;
+    margin: 20px;
+    flex-direction: row;
+}
+
+.row-2-title {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+
+.ed {
+    margin-left: 10px;;
+}
+
+.row-2-body {
+    height: 150px;
+}
+
+.ed-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.ed-date {
+    font-size: 20px;
+    color: gray;
+    margin: 10px;
+}
+
+.ed-body {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+.row-3 {
+    border: 2px solid gray;
+    margin: 20px;
+    flex-direction: row;
+}
+
+.row-3-title {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+
+.requests {
+    border: 1px solid gray;
+    background-color: gray;
+    color: black;
+    border-radius: 50%;
+    width: 20px;
+    margin: 10px;
+}
+
+.row-3-body{
+
+}
+
+.conn-name {
+    display: flex;
+    margin: 5px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.conn-photo {
+    height: 30px;
+    margin: 5px;
+}
+
+.accept {
+    height: 20px;
+    margin: 5px;
+    margin-left: 70px;
+}
+
+.close {
+    height: 20px;
+    margin: 5px;
+}
+
+.row-4 {
+    border: 2px solid gray;
+    margin: 20px;
+    flex-direction: row;
+}
+
+.row-4-title {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+
+.connections {
+    border: 1px solid gray;
+    background-color: gray;
+    color: black;
+    border-radius: 50%;
+    width: 40px;
+    margin: 10px;
+}
+
+.row-4-footer {
+    display: flex;
+    border-top: 2px solid gray;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    padding: 5px;
+}
+
+.view {
+    flex-direction: row;
 }
