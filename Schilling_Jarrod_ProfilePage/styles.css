@@ -26,7 +26,12 @@
     font-weight: bold;
 }
 
-.btn {
+.nav-right {
+    display: flex;
+    justify-content:end;
+}
+
+.sign_out {
     box-shadow: 4px 5px black;
     background-color: #13A3B8;
     color: white;
