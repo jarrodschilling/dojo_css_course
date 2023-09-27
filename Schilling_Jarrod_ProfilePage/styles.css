@@ -9,6 +9,8 @@
 .nav-title {
     float: left;
     margin-right: 20px;
+    margin-left: 220px;
+    font-size: 25;
 }
 
 .nav > a {
@@ -26,37 +28,45 @@
 
 .btn {
     box-shadow: 4px 5px black;
-    background-color: rgb(0, 217, 255);
+    background-color: #13A3B8;
     color: white;
     float: right;
     margin: 30px;
+    margin-right: 405px;
     font-size: 20px;
 
 }
 
 .body {
     font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .container {
     display: flex;
-    width: 900px;
-    margin: 20px;
+    margin: 20px 200px;
 }
 
 .col-1 {
     display: flex;
     flex-direction: column;
-    flex: 2;
-    margin: 20px;
+    width: 600px;
+    margin: 5px;
 }
 
 .col-2 {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    width: 100px;
-    margin: 20px;
+    width: 250px;
+    margin: 5px;
+}
+
+.user-photo {
+    position: fixed;
+    top: 170px;
+    left: 250px;
+    height: 80px;
+    border-radius: 50%;
 }
 
 .row-1 {
@@ -66,16 +76,18 @@
 }
 
 .row-1-title {
-    background-color: aqua;
+    background-color: #13A3B8;
     height: 75px;
 }
 
 .row-1-body {
     margin: 10px;
+    margin-top: 25px;
 }
 
 .edit > img {
     height: 20px;
+    margin-right: 5px;
 }
 
 .location > img {
@@ -161,10 +173,7 @@
     border-radius: 50%;
     width: 20px;
     margin: 10px;
-}
-
-.row-3-body{
-
+    text-align: center;
 }
 
 .conn-name {
@@ -179,10 +188,16 @@
     margin: 5px;
 }
 
-.accept {
+.accept-1 {
     height: 20px;
     margin: 5px;
-    margin-left: 70px;
+    margin-left: 40px;
+}
+
+.accept-2 {
+    height: 20px;
+    margin: 5px;
+    margin-left: 47px;
 }
 
 .close {
@@ -211,6 +226,7 @@
     border-radius: 50%;
     width: 40px;
     margin: 10px;
+    text-align: center;
 }
 
 .row-4-footer {
