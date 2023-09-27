@@ -1,19 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    outline: 1px red dashed;
+}
+
 .navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     background-color: black;
+    padding: 10px 200px;
 }
 
 .navbar-left{
     display: flex;
+    /* margin-left: 265px; */
 }
 
 .nav-links {
     display: flex;
     align-items: center;
-    margin: 5px;
+    /* margin: 5px; */
     list-style: none;
 }
 
@@ -35,6 +46,7 @@
 
 .navbar-right {
     display: flex;
+    /* margin-right: 185px; */
 }
 
 .navbar-right button {
@@ -46,37 +58,38 @@
 
 .container {
     display: flex;
-    margin: 20px 40px;
+    margin-top: 10px;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 200px;
 }
 
 .col-1 {
     display: flex;
+    /* align-items: baseline; */
     flex-direction: column;
     width: 600px;
-    margin: 5px;
 }
 
 .col-2 {
     display: flex;
     flex-direction: column;
     width: 250px;
-    margin: 5px;
 }
 
 .user-photo {
-    position: absolute;
-    top: 23%;
-    left: 25%;
-    height: 80px;
-    width: auto;
+    /* position: relative; */
+    align-self: baseline;
+    margin: 35px 10px;
+    top: 35px;
+    left: 30px;
+    height: 70px;
     border-radius: 50%;
 }
 
 .row-1 {
     border: 2px solid gray;
-    margin: 20px;
+    margin-bottom: 10px;
     flex-direction: row;
 }
 
@@ -123,7 +136,7 @@
 
 .row-2 {
     border: 2px solid gray;
-    margin: 20px;
+    /* margin: 20px; */
     flex-direction: row;
 }
 
@@ -164,7 +177,7 @@
 
 .row-3 {
     border: 2px solid gray;
-    margin: 20px;
+    margin-bottom: 10px;
     flex-direction: row;
 }
 
@@ -217,7 +230,7 @@
 
 .row-4 {
     border: 2px solid gray;
-    margin: 20px;
+
     flex-direction: row;
 }
 
