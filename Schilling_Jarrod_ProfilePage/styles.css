@@ -4,7 +4,7 @@
     border: 0;
     vertical-align: top;
     box-sizing: border-box;
-    outline: 1px red dashed;
+    /* outline: 1px red dashed; */
 }
 
 .navbar {
@@ -16,15 +16,9 @@
     padding: 10px 200px;
 }
 
-.navbar-left{
-    display: flex;
-    /* margin-left: 265px; */
-}
-
 .nav-links {
     display: flex;
     align-items: center;
-    /* margin: 5px; */
     list-style: none;
 }
 
@@ -37,19 +31,14 @@
 .nav-profile {
     color: white;
     margin-right: 10px;
-
 }
 
 #active {
     font-weight: bold;
 }
 
-.navbar-right {
+.sign_out {
     display: flex;
-    /* margin-right: 185px; */
-}
-
-.navbar-right button {
     box-shadow: 4px 5px black;
     background-color: #13A3B8;
     color: white;
@@ -78,7 +67,6 @@
 }
 
 .user-photo {
-    /* position: relative; */
     align-self: baseline;
     margin: 35px 10px;
     top: 35px;
